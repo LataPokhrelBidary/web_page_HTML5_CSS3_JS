@@ -1,0 +1,54 @@
+img{
+    height: 170px;
+    width: 20%;
+    float: right;
+    margin-right: 10%;
+    padding-top: 3%;
+    
+}
+body {
+    
+    background-color: rgb(238, 248, 223);
+}
+table{
+    width: 70%;
+   padding: 5%cm;
+    background-color:rgb(240, 185, 131);
+    text-align: center;  
+}
+
+h2{
+ text-align: center;
+    color: brown;
+}
+div#body	{ 
+    width: 70%;
+    margin: auto;
+    margin-top: .5em ;
+    margin-bottom: .5em ;
+  }
+  div#adress{
+      
+      color: brown;
+  }
+  
+    nav	{
+        background-color: rgb(240, 185, 131);
+        border-style: ridge;
+        border-color: brown;
+        width: 70%;	
+    
+        }
+    
+    nav a{
+        color: black;
+        padding: 1px 50px ;
+        display: inline;
+        }
+    
+    nav a:hover	{
+        background-color: brown;
+        display: inline;
+        
+        }
+        

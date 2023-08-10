@@ -1,0 +1,86 @@
+
+h1,h2,h3{ color: brown ;
+	margin: auto ;
+	padding: 0 ;
+	
+}
+body {
+	text-align: center;
+	background-color: rgb(238, 248, 223);
+	}
+	
+p	{
+	font-size: 1.2em;
+	color: brown ;
+	text-align:left;
+	}	
+
+.pIntro	{
+	font-size: 1.2em;
+	color: brown;
+	text-align:left;
+	display:inline-block;
+	max-width:70%;
+	margin: 20px 0px 55px 0px;
+
+	}	
+	
+center {
+		text-align: center;
+		}
+			
+div{
+	width:70%;
+	text-align: left;
+	display:inline-block;
+	
+	}
+	img {
+    border-radius: 8px;
+	width: 22%;
+	}
+	
+	.bigImg {
+    border-radius: 8px;
+	width: 50%;
+	display: inline-block;
+	max-width:650px;
+	}
+	.companyImg {
+    border-radius: 8px;
+	width: 30%;
+	margin: 5px 0px 0px 0px;
+	min-height: 250px;
+	min-width: 300px;
+	
+	max-width: 25%;
+	max-height: 25%;
+	}
+	
+	.smallDiv{
+	width:40%;
+	display:inline-block;
+	margin-bottom:3%;
+	
+	}
+	
+	
+	
+	table.center {
+	margin-left:auto; 
+	margin-right:auto;
+		  }
+		  
+
+	ol
+	{
+		text-align: left;
+		color: brown ;
+	}
+	ul
+	{
+		text-align: left;
+		color: brown ;
+	}
+	
+

@@ -1,0 +1,75 @@
+[
+	{
+		"prodID": 101, 
+		"prodImg": "/images/cabbage.jpg",
+		"prodName": "Whole Cabbage (3 lb)",
+		"prodDesc": "This is our farm fresh green cabage.",
+		"prodPrice": 11.95
+	},
+	{
+		"prodID": 102,
+		"prodImg": "/images/cucumber.jpg",
+		"prodName": "Pickle Cucumber (5 lb)",
+		"prodDesc": "Fresh cucumber idle for pickle.",
+		"prodPrice": 12.95
+	},
+	{
+		"prodID": 103,
+		"prodImg": "/images/cauliflower.jpg",
+		"prodName": "White Cauliflower (2 lb)",
+		"prodDesc": "Our farm fresh organic cauliflower.",
+		"prodPrice": 10.95
+	},
+	{
+		"prodID": 104, 
+		"prodImg": "/images/mushroom.jpg",
+		"prodName": "Mushroom (1 1b)",
+		"prodDesc": "Farm fresh mushroom, good source of protein, potassium and magnesium ",
+		"prodPrice": 11.55
+	},
+	{
+		"prodID": 105, 
+		"prodImg": "/images/spinach.jpg",
+		"prodName": "Spinach - Ready to eat (1 1b)",
+		"prodDesc": "Thoroughly washed , ready to eat spinach, good source of vitamin A.",
+		"prodPrice": 2.99
+	},
+
+	{
+		"prodID": 106, 
+		"prodImg": "/images/orange.jpg",
+		"prodName": "Orange - Locally grown (2 1b)",
+		"prodDesc": "This is locally grown oranges, good source of vitamin C.",
+		"prodPrice": 4.99
+	},
+	{
+		"prodID": 107, 
+		"prodImg": "/images/grape.jpg",
+		"prodName": "Black Grapes (5 1b)",
+		"prodDesc": "This is our sweet, delicious black grapes packed with vitamin, mineral and antioxidants.",
+		"prodPrice": 12.99
+	},
+	{
+		"prodID": 108, 
+		"prodImg": "/images/strawberry.jpg",
+		"prodName": "Strawberry (4 1b)",
+		"prodDesc": "This is fresh long stem strawberry full of health benifits.",
+		"prodPrice": 11.99
+	},
+	{
+		"prodID": 109, 
+		"prodImg": "/images/tomato.jpg",
+		"prodName": "Vine Tomatoes (2 1b)",
+		"prodDesc": "Locally grown, organic vine tomatoes, great for salad.",
+		"prodPrice": 5.99
+	},
+	{
+		"prodID": 110, 
+		"prodImg": "/images/blueberry.jpg",
+		"prodName": "Blueberry (1 1b)",
+		"prodDesc": "Nutirient dense berry, rich in antioxidant.",
+		"prodPrice": 4.99
+	}
+
+
+]

@@ -1,0 +1,72 @@
+
+<!DOCTYPE HTML>
+
+
+<html lang = "en">
+	<head>
+
+		<meta charset = "utf-8">
+		<title> product page</title>
+		
+		<link rel="stylesheet" type="text/css" href="/css/webPage.css">
+		<link rel="stylesheet" type="text/css" href="/css/menu.css">
+		<link rel="stylesheet" type="text/css" href="/css/Table.css">
+
+	</head>
+	
+	<body>
+		<img src="/images/bucket1.jpg" alt="text">
+		<h1> Fresh Organic Garden&reg</h1>
+		<h1>Our Products</h1>
+		<p></p>
+		<div id ="menu" style="text-align: center; width: 90%">
+                <nav>
+                <a href = "home.html" style="color: black; font-size: 1.1em;">Home</a>
+                &nbsp;
+				<a href = "product.html" style="color: black; font-size: 1.1em;">Products</a>
+                &nbsp;
+                <a href = "contact.html" style="color: black; font-size: 1.1em;">Contact Us</a>
+                &nbsp;
+				<a href = "About.html" style="color: black; font-size: 1.1em;">About Us</a>
+                &nbsp;
+                </nav>
+        </div>   
+		
+		
+		<form action="#" style="text-align: center">
+		<div style="text-align: center; width: 90%;">
+		<br>
+		<p>
+		<table align ="center">
+			<thead>
+				<tr>
+					<th><a id="sortID" href="javascript:sortByID( )" style="color: brown;">Product ID</a></th>
+					<th><a></a></th>
+					<th><a id="sortName" href="javascript:sortByName( )" style="color: brown">Product Name</a></th>
+					<th><a style="text-decoration-line: none; color: brown">Product Description</a></th>
+					<th><a id="sortPrice" href="javascript:sortByPrice( )" style="color: brown">Product Price</a></th>
+					<th><a style="color: brown">Quantity</a></th>
+			</thead>
+			<h3 style="color: brown;"><i>Click a Column Heading to Sort</i></h3>
+			
+			<tbody id="myTb" style="color: brown;"></tbody>
+		</table>
+		</p>
+		</div>			
+		
+		<p style="width: 80%; text-align: right">
+			<input type="submit" value="Confirm" onclick = "confirmQty()">
+			<input id= "reset" type="reset" value="Reset" >
+		</p>
+		
+
+				
+		<script src="/js/product.js"></script>
+	
+		
+    </form>
+
+</body>
+			
+
+</html>

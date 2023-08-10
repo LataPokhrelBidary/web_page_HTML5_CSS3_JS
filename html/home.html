@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="styleSheet" type="text/css" href="/css/home.css">
+    <title>Document</title>
+
+    <script>
+
+        window.onload = function () {
+
+            function createCookie(name, value, days) {
+                if (days) {
+                    var date = new Date();
+                    date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+                    var expires = "; expires=" + date.toGMTString();
+                }
+                else var expires = "";
+                document.cookie = name + "=" + value + expires + "; path=/";
+            }
+
+            function readCookie(name) {
+                var nameEQ = name + "=";
+                var ca = document.cookie.split(';');
+                for (var i = 0; i < ca.length; i++) {
+                    var c = ca[i];
+                    while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+                    if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+                }
+                return null;
+            }
+
+
+            if (person = readCookie("person")) {
+
+                document.getElementById("experience").innerHTML = "Welcome, " + person + ". We hope you will enjoy at Fresh Organic Garden!"
+                document.getElementById("nameProvide").innerText = "Please click here if you are not " + person + "."
+
+            } else {
+
+                document.getElementById("nameProvide").innerText = "Please click here to provide your name."
+            }
+
+            document.getElementById("nameProvide").addEventListener("click", function () {
+
+                var person = prompt("Please enter your name:");
+
+                if (person == null || person == "") {
+
+                } else {
+
+                    document.getElementById("experience").innerHTML = "Welcome, " + person + ". We hope you will enjoy at Fresh Organic Garden!!"
+
+                    createCookie("person", person, 21);
+
+                    document.getElementById("nameProvide").innerText = "Please click here if you are not " + person + "."
+                }
+            });
+
+            setTimeout(function () {
+
+                var random = Math.round(Math.random() * 10);
+
+                var isNotDivisible = (random % 3);
+
+                if (!isNotDivisible) {
+
+                    alert("You have been randomly selected to participate in a customer satisfaction survey.");
+
+                    window.open("review.html");
+                }
+            }, 3000);
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Thank you for choosing Fresh Organic Garden&REG;</h1>
+    <br>
+    
+    <div style="display: flex;">
+        <p>Fresh Organic Garden Intended to sell fresh products from our local garden to your kitchen.
+            We are located at Euless Tx 76040. We owned 15 acres land to grown our fresh vegitables and fruits.
+            Our locally grown produce are accreditated by U.S. Department of Agriculture (USDA).
+            We determined to serve our farm-fresh produce to our local and regional market. We are greatly appreciate
+            your
+            business with us. Go Green Eat a Plant.</p>
+        <img src="/images/bucket1.jpg" alt="text" style="border-radius: 20%;width:20%; padding-left:2%; padding-right: 2%;">
+    </div>
+
+    
+    <div>
+        <img src="/images/strawberry.jpg" alt="" style="border-radius: 20%;float: left; padding: 5%;">
+        <div id="div2">
+            <p id="experience">Want a more personalized experience on our website?</p>
+            <a style="text-align: left;" href="#" id="nameProvide"></a>
+        </div>
+    </div>
+</body>
+
+</html>

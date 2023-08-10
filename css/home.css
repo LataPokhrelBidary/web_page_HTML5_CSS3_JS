@@ -1,0 +1,63 @@
+body {
+    
+    background-color: rgb(238, 248, 223);
+}
+
+h1 {
+    text-align: center;
+    color: brown;
+
+}
+
+img{
+    height: 230px;
+    width: 30%;
+    float: right;
+    margin-top: 0ch;
+    padding-right: 15%;
+}
+
+p {
+    text-align: center;
+    color: brown;
+    font-size: 1.4em;
+    text-align: justify;
+    padding: 5%;
+}
+
+
+div	{ 
+   
+    width: 70%;
+    margin: auto;
+    margin-top: .5em ;
+    margin-bottom: .5em ;
+  }
+  a{
+      color: blue;
+      
+  }
+  nav	{
+    font-size: 1.2em;
+       background-color: rgb(240, 185, 131);
+    border-style: ridge;
+    border-color: brown;
+    margin-top: 2%;	
+    }
+
+nav a	{
+       color: black;
+       padding: 2px 80px ;
+    display: inline;
+    }
+
+nav a:hover	{
+    background-color:brown;
+    color: blue;
+    display: inline;
+    }
+  
+  
+  
+ 
+  
